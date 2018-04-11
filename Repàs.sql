@@ -46,7 +46,7 @@ where not exists(select*
 	where e.num_dpt = d.num_dpt and e.ciutat_empl = 'MADRID');
 -------10-------
 
---EXERCICI 8--
+--EXERCICI 8----
 select p.num_proj, p.nom_proj
 from projectes p, empleats e
 where p.num_proj = e.num_proj

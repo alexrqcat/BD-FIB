@@ -21,5 +21,5 @@ Any(**Any Edició**)
 Pel·lícula(**Nom Pel·lícula**)  
 
 >Nominades(**_Nom Pel·lícula, Nom Premi_**)  
-{Nom Pel·lícula} Referencia Pel·lícula
+{Nom Pel·lícula} Referencia Pel·lícula  
 {Nom Premi} Referencia Premi

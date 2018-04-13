@@ -24,14 +24,14 @@ Director(**_Num Cinéfil_**)
 {Num Cinéfil} Referencia Cinéfil
 
 Rols(**_Codi Pel·lícula, Num Cinéfil_**, Paper)  
-{Codi Pel·lícula} Referencia Pel·lícula
+{Codi Pel·lícula} Referencia Pel·lícula  
 {Num Cinéfil} Referencia Actor  
 
 Substitució(**_Num Cinéfil A, Num Cinéfil B_**, Grau Substitució)  
-{Num Cinéfil A} Referencia Actor
+{Num Cinéfil A} Referencia Actor  
 {Num Cinéfil B} Referencia Actor
 
-Cinéfil(**Num Cinéfil**, Nom Cinéfil, Any Naixement, Sexe) 
+Cinéfil(**Num Cinéfil**, Nom Cinéfil, Any Naixement, Sexe)
 
 Data(**Data alta**)  
 
@@ -41,5 +41,5 @@ Contractació(**_Num Cinéfil, Data Alta, Nom Comopanyia_**, Data Baixa)
 {Nom Companyia} Referencia Companyia   
 
 Habilitat(**_Nom Tema, Num Cinéfil_**)  
-{Nom Tema} Referencia Tema
+{Nom Tema} Referencia Tema  
 {Num Cinéfil} Referencia Actor

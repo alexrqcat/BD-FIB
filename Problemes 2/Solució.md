@@ -48,6 +48,6 @@ Data(**Data alta**)
 {Data Alta} Referencia Data   
 {Nom Companyia} Referencia Companyia   
 
->Habilitat(**_Nom Tema, Num Cinéfil_**)  
+>Habilitat(**_Nom Tema, Num Cinéfil_**, Grau Habilitat)  
 {Nom Tema} Referencia Tema  
 {Num Cinéfil} Referencia Actor

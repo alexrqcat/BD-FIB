@@ -14,3 +14,32 @@ Pel·lícula (**Codi Pel·lícula**, Nom Pel·lícula, Any, Pressupost, *Nom Com
 {Nom Companyia} Referencia Companyia NOT NULL   
 {Num Cinéfil} Referencia Director NOT NULL   
 {Nom Tema} Referencia Tema NOT NULL  
+
+Tema(**Nom Tema**)  
+
+Actor(**_Num Cinéfil_**)  
+{Num Cinéfil} Referencia Cinéfil
+
+Director(**_Num Cinéfil_**)   
+{Num Cinéfil} Referencia Cinéfil
+
+Rols(**_Codi Pel·lícula, Num Cinéfil_**, Paper)  
+{Codi Pel·lícula} Referencia Pel·lícula
+{Num Cinéfil} Referencia Actor  
+
+Substitució(**_Num Cinéfil A, Num Cinéfil B_**, Grau Substitució)  
+{Num Cinéfil A} Referencia Actor
+{Num Cinéfil B} Referencia Actor
+
+Cinéfil(**Num Cinéfil**, Nom Cinéfil, Any Naixement, Sexe) 
+
+Data(**Data alta**)  
+
+Contractació(**_Num Cinéfil, Data Alta, Nom Comopanyia_**, Data Baixa)  
+{Num Cinéfil} Referencia Cinéfil  
+{Data Alta} Referencia Data   
+{Nom Companyia} Referencia Companyia   
+
+Habilitat(**_Nom Tema, Num Cinéfil_**)  
+{Nom Tema} Referencia Tema
+{Num Cinéfil} Referencia Actor

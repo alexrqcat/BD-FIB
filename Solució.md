@@ -2,6 +2,8 @@ Negeta: **primary key**
 Cursiva: _foreign key_  
 Negreta + Cursiva: **_primary and foreign key_**  
 
+>Marcades les Classes Associatives.  
+
 ---
 
 Pais(**Nom País**)
@@ -46,6 +48,6 @@ Data(**Data alta**)
 {Data Alta} Referencia Data   
 {Nom Companyia} Referencia Companyia   
 
-Habilitat(**_Nom Tema, Num Cinéfil_**)  
+>Habilitat(**_Nom Tema, Num Cinéfil_**)  
 {Nom Tema} Referencia Tema  
 {Num Cinéfil} Referencia Actor

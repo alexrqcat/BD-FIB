@@ -1,4 +1,4 @@
-##EXERCICI 5 APARTAT d) EXAMEN 18.1.2013  
+## EXERCICI 5 APARTAT d) EXAMEN 18.1.2013  
 
 Negeta: **primary key**  
 Cursiva: _foreign key_  

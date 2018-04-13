@@ -1,3 +1,8 @@
+Negeta: **primary key**  
+Cursiva: _foreign key_  
+Negreta + Cursiva: **_primary and foreign key_**  
+
+
 Pais(**Nom País**)
 
 Ciutat(**Nom Ciutat, _Nom País_**)  
@@ -35,7 +40,7 @@ Cinéfil(**Num Cinéfil**, Nom Cinéfil, Any Naixement, Sexe)
 
 Data(**Data alta**)  
 
-Contractació(**_Num Cinéfil, Data Alta, Nom Comopanyia_**, Data Baixa)  
+Contractació(**_Num Cinéfil, Data Alta, Nom Companyia_**, Data Baixa)  
 {Num Cinéfil} Referencia Cinéfil  
 {Data Alta} Referencia Data   
 {Nom Companyia} Referencia Companyia   

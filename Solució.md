@@ -2,6 +2,7 @@ Negeta: **primary key**
 Cursiva: _foreign key_  
 Negreta + Cursiva: **_primary and foreign key_**  
 
+---
 
 Pais(**Nom País**)
 
@@ -10,7 +11,7 @@ Ciutat(**Nom Ciutat, _Nom País_**)
 
 Companyia(**Nom Companyia**)
 
-Representació(**_Nom Ciutat, Nom País, Nom Companyia_**, Adreça)  
+> Representació(**_Nom Ciutat, Nom País, Nom Companyia_**, Adreça)  
 {Nom Ciutat} Referencia Ciutat   
 {Nom País} Referencia País  
 {Nom Companyia} Referencia Companyia  

@@ -16,7 +16,7 @@ Any(**Any Edició**)
 {Nom Caregoria} Referencia Categoria  
 {Nom Festival} Referencia Festival  
 {Any Edició} Referencia Any  
-{Nom Pel·lícula} Referencia Pel·lícula  
+{Nom Pel·lícula} Referencia Pel·lícula NOT NULL  
 
 Pel·lícula(**Nom Pel·lícula**)  
 

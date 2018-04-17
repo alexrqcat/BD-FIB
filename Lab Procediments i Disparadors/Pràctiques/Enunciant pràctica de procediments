@@ -1,0 +1,29 @@
+Donat un intèrval de DNIs, obtenir la informació de cadascun dels treballadors amb un DNI d'aquest interval.
+
+La informació que cal obtenir és la següent:
+- Per cada treballador destacat de l'interval (treballador que té un mínim de cinc lloguers actius), es vol obtenir les seves dades personals i la matrícula dels cotxes que té llogats;
+- Per la resta de treballadors, simplement es vol obtenir les seves dades personals.
+
+Tingueu en compte que:
+- En el cas de treballadors destacats, al llistat hi sortirà una fila per cadascun dels cotxes que té llogats.
+- En el cas de treballadors no destacats, al llistat hi sortirà una única fila, en què l'atribut matrícula tindrà valor nul.
+- El nom del procediment ha de ser llistat_treb, i ha de tenir dos paràmetres corresponents als dos DNIs que defineixen l'interval.
+- El llistat ha d'estar ordenat per dni i matricula de forma ascendent.
+- Les dades de cada treballador, s'han de donar en l'ordre que apareixen al resultat del joc de proves públic.
+- El tipus de les dades que s'han de retornar han de ser els mateixos que hi ha a la taula on estan definits els atributs corresponents.
+
+El procediment ha d'informar dels errors a través d'excepcions. Les situacions d'error que heu d'identificar són les tipificades a la taula missatgesExcepcions, que podeu trobar definida i amb els inserts corresponents al fitxer adjunt. En el vostre procediment heu d'incloure, on s'identifiquin aquestes situacions, les sentències:
+SELECT texte INTO missatge FROM missatgesExcepcions WHERE num=___; ( 1 o 2, depenent de l'error)
+RAISE EXCEPTION '%',missatge;
+On la variable missatge ha de ser una variable definida al vostre procediment.
+
+Pel joc de proves que trobareu al fitxer adjunt i la crida següent,
+SELECT * FROM llistat_treb('11111111','33333333');
+el resultat ha de ser:
+
+DNI Treballador		Nom Treballador		Sou base		Plus sou		Matricula
+22222222		Joan		1700		150		1111111111
+22222222		Joan		1700		150		2222222222
+22222222		Joan		1700		150		3333333333
+22222222		Joan		1700		150		4444444444
+22222222		Joan		1700		150		5555555555
